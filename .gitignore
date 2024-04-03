@@ -41,3 +41,7 @@ dependencies {
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
+
+
+AppCenter.start(getApplication(), "{"8ed34b43-b49d-4a06-bee2-0ed215cee7d4"}",
+                  Analytics.class, Crashes.class);
